@@ -15,6 +15,7 @@
 		9D01A9ED2194F097001D2D73 /* MoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01A9EC2194F097001D2D73 /* MoodTrackerTests.swift */; };
 		9D01A9F82194F097001D2D73 /* MoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01A9F72194F097001D2D73 /* MoodTrackerUITests.swift */; };
 		9D01AA062194F0CB001D2D73 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01AA052194F0CB001D2D73 /* MoodEntry.swift */; };
+		9D01AA0821953667001D2D73 /* MoodEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9D01A9F72194F097001D2D73 /* MoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerUITests.swift; sourceTree = "<group>"; };
 		9D01A9F92194F097001D2D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D01AA052194F0CB001D2D73 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				9D01A9D72194F096001D2D73 /* AppDelegate.swift */,
 				9D01A9D92194F096001D2D73 /* ViewController.swift */,
+				9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */,
 				9D01AA052194F0CB001D2D73 /* MoodEntry.swift */,
 				9D01A9DB2194F096001D2D73 /* Main.storyboard */,
 				9D01A9DE2194F097001D2D73 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				9D01A9DA2194F096001D2D73 /* ViewController.swift in Sources */,
 				9D01A9D82194F096001D2D73 /* AppDelegate.swift in Sources */,
 				9D01AA062194F0CB001D2D73 /* MoodEntry.swift in Sources */,
+				9D01AA0821953667001D2D73 /* MoodEntryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
