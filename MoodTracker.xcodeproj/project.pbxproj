@@ -16,6 +16,9 @@
 		9D01A9F82194F097001D2D73 /* MoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01A9F72194F097001D2D73 /* MoodTrackerUITests.swift */; };
 		9D01AA062194F0CB001D2D73 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01AA052194F0CB001D2D73 /* MoodEntry.swift */; };
 		9D01AA0821953667001D2D73 /* MoodEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */; };
+		9DD47C5621BDDAC600610866 /* MoodDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47C5521BDDAC600610866 /* MoodDetailedViewController.swift */; };
+		9DD47C5821BE071A00610866 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47C5721BE071A00610866 /* CalendarViewController.swift */; };
+		9DD47C5A21BE0E3100610866 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47C5921BE0E3100610866 /* Date+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9D01A9F92194F097001D2D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D01AA052194F0CB001D2D73 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
 		9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryTableViewCell.swift; sourceTree = "<group>"; };
+		9DD47C5521BDDAC600610866 /* MoodDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailedViewController.swift; sourceTree = "<group>"; };
+		9DD47C5721BE071A00610866 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		9DD47C5921BE0E3100610866 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				9D01A9D72194F096001D2D73 /* AppDelegate.swift */,
 				9D01A9D92194F096001D2D73 /* ViewController.swift */,
+				9DD47C5921BE0E3100610866 /* Date+String.swift */,
+				9DD47C5721BE071A00610866 /* CalendarViewController.swift */,
+				9DD47C5521BDDAC600610866 /* MoodDetailedViewController.swift */,
 				9D01AA0721953667001D2D73 /* MoodEntryTableViewCell.swift */,
 				9D01AA052194F0CB001D2D73 /* MoodEntry.swift */,
 				9D01A9DB2194F096001D2D73 /* Main.storyboard */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD47C5A21BE0E3100610866 /* Date+String.swift in Sources */,
+				9DD47C5821BE071A00610866 /* CalendarViewController.swift in Sources */,
 				9D01A9DA2194F096001D2D73 /* ViewController.swift in Sources */,
+				9DD47C5621BDDAC600610866 /* MoodDetailedViewController.swift in Sources */,
 				9D01A9D82194F096001D2D73 /* AppDelegate.swift in Sources */,
 				9D01AA062194F0CB001D2D73 /* MoodEntry.swift in Sources */,
 				9D01AA0821953667001D2D73 /* MoodEntryTableViewCell.swift in Sources */,
